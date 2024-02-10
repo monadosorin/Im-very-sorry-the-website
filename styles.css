@@ -1,0 +1,90 @@
+.body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+}
+
+.second-image {
+    width: 610px;
+    height: 570px;
+    transition: ease-in-out .2s;
+}
+.first-image {
+    width: 610px;
+    height: 570px;
+    transition: ease-in-out .2s;
+    
+}
+
+.first-image:hover {
+    transform:scale(1.01);
+}
+
+.second-image:hover {
+    transform:scale(1.01);
+}   
+
+.header{
+    display: flex;
+    gap: 390px;
+}
+
+.recent{
+    margin-left: 200px;
+    font-family:fantasy ;
+}
+
+.buy{
+    margin-left: 60px;
+    font-family: fantasy;
+}
+
+
+
+.main-container{
+    display: flex;
+    gap: 300px;
+    margin-top: 150px;
+
+}
+
+.nintendo{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.nintendo-image{
+    height: 250px;
+    width: 400px;
+    margin-left: 200px;
+
+    
+}
+
+.nintendo-button {
+    margin-left: 340px;
+    font-size: 40px;
+}
+
+.playstation-image{
+    height: 250px;
+    width: 125px;
+}
+
+.hi{
+    display: flex;
+    justify-content: center;
+}
+
+.playstation-button{
+    margin-left: 150px;
+    font-size: 40px;
+}
+
