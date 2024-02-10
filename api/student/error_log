@@ -1,0 +1,22 @@
+[16-Jun-2022 11:30:00 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNION DISTINCT SELECT
+            c.nrp,
+            c.nama,
+            SUBS' at line 14' in /home/beminternal/public_html/reach/api/student/index.php:105
+Stack trace:
+#0 /home/beminternal/public_html/reach/api/student/index.php(105): PDO->prepare('SELECT\r\n       ...')
+#1 {main}
+  thrown in /home/beminternal/public_html/reach/api/student/index.php on line 105
+[18-Jun-2022 20:43:01 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Sustainable Mechanical Engineering '
+            UNION DISTINCT SELECT
+       ' at line 13' in /home/beminternal/public_html/reach/api/student/index.php:105
+Stack trace:
+#0 /home/beminternal/public_html/reach/api/student/index.php(105): PDO->prepare('SELECT\r\n       ...')
+#1 {main}
+  thrown in /home/beminternal/public_html/reach/api/student/index.php on line 105
+[18-Jun-2022 20:44:10 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Sustainable Mechanical Engineering '
+            UNION DISTINCT SELECT
+       ' at line 13' in /home/beminternal/public_html/reach/api/student/index.php:105
+Stack trace:
+#0 /home/beminternal/public_html/reach/api/student/index.php(105): PDO->prepare('SELECT\r\n       ...')
+#1 {main}
+  thrown in /home/beminternal/public_html/reach/api/student/index.php on line 105

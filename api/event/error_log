@@ -1,0 +1,10 @@
+[18-Jun-2022 16:16:45 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM event
+            WHERE 1
+            
+            
+            
+     ' at line 1' in /home/beminternal/public_html/reach/api/event/index.php:44
+Stack trace:
+#0 /home/beminternal/public_html/reach/api/event/index.php(44): PDO->prepare('SELECT RAND() *...')
+#1 {main}
+  thrown in /home/beminternal/public_html/reach/api/event/index.php on line 44
